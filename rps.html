@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <title>RPS</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <h1><span class="type"></span></h1>
+        <!-- <button id="dark">Dark Theme</button>
+        <button id="light">Light Theme</button>-->
+    </div>
+    <!-- NAVBAR -->
+
+    <!-- TABLA SCOR-->
+    <div class="scor">
+        <div id="userlabel" class="badge">USER</div>
+        <div id="computerlabel" class="badge">COMP</div>
+        <p><span id="userscore">0</span><span>:</span><span id="computerscore">0</span></p>
+    </div>
+    <!-- TABLA SCOR-->
+
+    <!--REZULTAT-->
+    <div class="rezultat">
+        <h5 id="ress">Make your choice!</h5>
+    </div>
+    <!--REZULTAT-->
+
+    <!-- ALEGERI -->
+    <div class="container">
+        <div class="rock">
+            <img id="piatra" src="./imgs/rock.png" alt="" onclick="myfunction1()">
+        </div>
+        <div class="paper">
+            <img id="hartie" src="./imgs/paper.png" alt="" onclick="myfunction2()">
+        </div>
+        <div class="scissors">
+            <img id="foarfeca" src="./imgs/scissors.png" alt="" onclick="myfunction3()">
+        </div>
+    </div>
+    <!-- ALEGERI -->
+    
+    <script src="./rps.js"></script>
+</body>
+</html>
